@@ -4,7 +4,10 @@ for (let x = 0; x <= 4; x++) {
     console.log(`Number ${x}`)
 }
 
+
+let name = 'Bob';
+// let name = 'Alice'; For testing purposes
 if (name === 'Bob'){
-    console.log(`Hello ${name}`);
+    console.log(`Hello, ${name}`);
 }else 
 console.log('You are not Bob')
